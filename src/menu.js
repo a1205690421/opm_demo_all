@@ -8,7 +8,13 @@ export const menu = [
   {
     icon: "el-icon-message",
     index: "element",
-    title: "user"
+    title: "user",
+    subs:[
+      {
+        index:"home",
+        title:"test"
+      }
+    ]
   },
   {
     icon: "el-icon-edit",
@@ -55,21 +61,21 @@ export const menu = [
       }
     ]
   },
-  {
-    icon: "el-icon-rank",
-    index: "draggable",
-    title: "draggable",
-    subs: [
-      {
-        index: "draglist",
-        title: "draglist"
-      },
-      {
-        index: "dragtable",
-        title: "dragtable"
-      }
-    ]
-  },
+  // {
+  //   icon: "el-icon-rank",
+  //   index: "draggable",
+  //   title: "draggable",
+  //   subs: [
+  //     {
+  //       index: "draglist",
+  //       title: "draglist"
+  //     },
+  //     {
+  //       index: "dragtable",
+  //       title: "dragtable"
+  //     }
+  //   ]
+  // },
   {
     icon: "el-icon-document",
     index: "charts",

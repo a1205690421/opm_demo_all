@@ -22,7 +22,8 @@ const zh={
         permissionMenu:'菜单测试',
         permissionBtn:'按钮测试',
         '404':'404',
-        user:'用户'
+        user:'用户管理',
+        test:'占位'
     },
     header:{
         fullScreen:'全屏',
